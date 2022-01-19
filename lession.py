@@ -26,7 +26,7 @@ class Purse:
 
 
 x = Purse('USD')
-y = Purse('EUR', 'Bill')
+y = Purse('EUR', 'RUB')
 y.top_up_balance(10)
 x.top_up_balance(y.top_down_balance(7))
 x.info()
